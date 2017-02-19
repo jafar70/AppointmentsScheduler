@@ -1,0 +1,31 @@
+#etechLogo{
+    padding-top: 60px;
+}
+.navbar-text { margin-left: 15px; }
+
+.gray { background: #2A99DD; }
+
+.green { background: #2A99DD; }
+
+.yellow { background: #2A99DD; }
+
+.blue { background: #2A99DD; }
+
+.darkBlue { background: #2A99DD; }
+
+.deepBlue { background: #2A99DD; }
+
+.purple { background: #2A99DD; }
+
+.lightPurple { background: #2A99DD; }
+
+.red { background: #2A99DD; }
+
+.pink { background: #2A99DD; }
+
+.footer .footer-content {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 70px;
+  border-top: 1px solid #E5E5E5;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "appointments",
+  "version": "1.0.0",
+  "description": "Appointment Web App (eTech Interview)",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.1.3",
+    "node-restful": "^0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itswadesh/simple-appointment.git"
+  },
+  "author": "Jafar Salami",
+  "license": "ISC"
+}
