@@ -12,7 +12,8 @@ mongoose.connect('mongodb://salamij:Osalami20_@ds147979.mlab.com:47979/8080');
 // Express
 var app = express();
 
-app.use(express.static(__dirname + './../public'));
+
+app.use(express.static(__dirname + '/public'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -21,6 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/api', require('./server/api/appointment/'));
 
 // Start server
+app.set('port', (process.env.PORT || 5000));
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
