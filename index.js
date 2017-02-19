@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes
-app.use('/api', require('./api/appointment/'));
+app.use('/api', require('./server/api/appointment/'));
 
 // Start server
 app.listen(app.get('port'), function() {
